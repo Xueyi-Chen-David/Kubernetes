@@ -25,7 +25,7 @@ sudo apt install -y kubelet kubeadm kubectl
 sudo swapoff -a
 
 # Install Another stuff...
-sudo apt install net-tools vim openssh-server
+sudo apt install -y net-tools vim openssh-server
 
 echo " "
 echo "k8s install ok"
