@@ -1,2 +1,2 @@
-kubeadm join 10.0.2.15:6443 --token jqxs42.vjkvy9pid9640km3 \
-	--discovery-token-ca-cert-hash sha256:3973abc45a102850c6cd65dfbb90f4ce037eba9350065245070ba1fb343668f8
+kubeadm join 10.0.2.15:6443 --token hxje8g.9z2nrciz9ntxzqhe \
+	--discovery-token-ca-cert-hash sha256:ab53df8f06c3549b4d8df0e11e65ba735bf12ccfdde1c171239e4fc09d3695b9
