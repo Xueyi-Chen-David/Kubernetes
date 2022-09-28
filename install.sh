@@ -21,6 +21,9 @@ sudo apt-add-repository "deb http://apt.kubernetes.io/ kubernetes-xenial main"
 # Install k8s 
 sudo apt install -y kubelet kubeadm kubectl
 
+# Turn off swap space
+sudo swapoff -a
+
 # Install Another stuff...
 sudo apt install net-tools vim openssh-server
 
