@@ -3,8 +3,10 @@ kind: Pod
 metadata:
   name: nginx
   labels:
-    env: test
+    app: MyApp
 spec:
   containers:
   - name: nginx
-    image: nginx
+    image: nginx 
+  nodeSelector:
+    disk: hdd
