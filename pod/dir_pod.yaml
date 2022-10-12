@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hostpath-pd
+spec:
+  containers:
+  - image: nginx
+    name: test-container
+    volumeMounts:
+    - mountPath: /opt
+      name: cache-volume
+  volumes:
+  - name: cache-volume
+    hostPath:
+      path: /home/user/data1
+      type: DirectoryOrCreate
